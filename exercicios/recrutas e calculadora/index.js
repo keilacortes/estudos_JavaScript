@@ -13,9 +13,17 @@ console.log("O campo de estudo do recruta é:",campoDeEstudo)
 
 let primeiroValor = prompt("Digite o primeiro número: ")
 let segundoValor = prompt("Digite o segundo número: ")
-const soma = primeiroValor + segundoValor
-const subtracao = primeiroValor - segundoValor
-const multiplicacao = primeiroValor * segundoValor
-const divisao = primeiroValor / segundoValor
 
-console.log("O resultado da soma é:",soma,"O resultado da subtração é", subtracao,"O resultado da multiplicação é:", multiplicacao,"O resultado da divisão é:",divisao)
+const x = parseFloat(primeiroValor)
+const y = parseFloat(segundoValor)
+
+const soma = x + y
+const subtracao = x - y
+const multiplicacao = x * y
+const divisao = x / y
+
+console.log(
+    "O resultado da soma é:" + soma +
+    "\nO resultado da subtração é" + subtracao +
+    "\nO resultado da multiplicação é:" + multiplicacao +
+    "\nO resultado da divisão é:" + divisao)
