@@ -15,11 +15,11 @@ if (velocidadeVeiculo1 === velocidadeVeiculo2){
 
 // Exercício 2 - Cálculo de Dano
 const nomeAtacante = prompt("Qual o nome do personagem atacante?")
-let ataque = prompt("Qual o poder de ataque de " + nomeAtacante + "?")
+let ataque = parseFloat(prompt("Qual o poder de ataque de " + nomeAtacante + "?"))
 
 const nomeDefensor = prompt("Qual o nome do personagem defensor?")
-let pontosDeVida = prompt("Quantos pontos de vida " + nomeDefensor + " tem?")
-let defesa = prompt("Qual o poder de defesa de " + nomeDefensor + "?")
+let pontosDeVida = parseFloat(prompt("Quantos pontos de vida " + nomeDefensor + " tem?"))
+let defesa = parseFloat(prompt("Qual o poder de defesa de " + nomeDefensor + "?"))
 let escudo = prompt(nomeDefensor + " Possui escudo? Digite sim ou não: ")
 
 if(ataque > defesa && escudo == "não"){
