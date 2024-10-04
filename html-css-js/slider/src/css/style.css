@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+main {
+    height: 100vh;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.slide1 {
+    background-image: url(../images/slide1.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+.slide2 {
+    background-image: url(../images/slide2.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+.slide3 {
+    background-image: url(../images/slide3.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+.slide4 {
+    background-image: url(../images/slide4.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+.white-box {
+    background-color: aliceblue;
+    padding: 67px 62px;
+    max-width: 503px;
+    border-radius: 10px;
+    margin-right: 40%;
+} 
+
+h1 {
+    margin-bottom: 80px;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+p, a {
+    margin-bottom: 40px;
+    font-size: 1.25rem;
+    line-height: 35px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #8B8B8B;
+    font-weight: 700;
+    transition: 0.4s;
+}
+
+a:hover {
+    color: #AE3865;
+}
+
+nav img {
+    margin: 62px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
