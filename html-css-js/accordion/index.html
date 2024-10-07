@@ -1,45 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/css/reset.css">
-    <link rel="stylesheet" href="./src/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
     <title>Accordion challenge</title>
-</head>
-<body>
+  </head>
+  <body>
     <div id="white-box">
-        
-        <div class="illustration">
-            <img src="./src/images/imagem.png" alt="illustration">
-        </div>
+      <div class="illustration">
+        <img src="./src/images/imagem.png" alt="illustration" />
+      </div>
 
+      <div class="questions">
         <p>FAQ</p>
         <ul>
+          <li class="question active">Lorem ipsum dolor sit, amet consectetur?</li>
+          <ul>
+            <li class="answer">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+              quis egestas ex, a elementum est. Mauris auctor nunc quis erat.
+            </li>
+          </ul>
 
-            <li class="question">Lorem ipsum dolor sit, amet consectetur?</li>
-            <ul>
-                <li class="hidden">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis egestas ex, a elementum est. Mauris auctor nunc quis erat.
-                </li>
-            </ul>
+          <li class="question divider">Lorem ipsum dolor sit amet?</li>
+          <ul>
+            <li class="answer hidden">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+              quis egestas ex, a elementum est. Mauris auctor nunc quis erat.
+            </li>
+          </ul>
 
-            <li class="question">Lorem ipsum dolor sit amet?</li>
-            <ul>
-                <li class="hidden">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis egestas ex, a elementum est. Mauris auctor nunc quis erat.
-                </li>
-            </ul>
-
-            <li class="question">Lorem ipsum dolor sit?</li>
-            <ul>
-                <li class="hidden">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quis egestas ex, a elementum est. Mauris auctor nunc quis erat.
-                </li>
-            </ul>
-
+          <li class="question divider">Lorem ipsum dolor sit?</li>
+          <ul>
+            <li class="answer hidden">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+              quis egestas ex, a elementum est. Mauris auctor nunc quis erat.
+            </li>
+          </ul>
         </ul>
+      </div>
     </div>
     <script src="./index.js"></script>
-</body>
+  </body>
 </html>
